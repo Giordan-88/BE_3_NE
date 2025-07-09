@@ -20,7 +20,7 @@ app.get("/posts", async (req, res) => {
 
 app.post("/posts", async (req, res) => {
   try {
-    const { titulo, img, descripcion } = req.body;
+    const { titulo, url: img, descripcion } = req.body;
     if (!titulo || !img || !descripcion) {
       return res.status(400).json({ error: "Faltan campos requeridos" });
     }
