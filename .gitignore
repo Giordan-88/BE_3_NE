@@ -1,0 +1,39 @@
+#Dependencias,
+node_modules/
+
+#Entornos (nunca subas claves privadas),
+.env
+.env.local
+.env..local
+
+#Logs,
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+#Archivos del sistema,
+.DS_Store
+Thumbs.db
+
+#Editor de código - VS Code,
+.vscode/
+
+#Salidas de producción o temporales,
+dist/
+build/
+coverage/
+
+#Archivos de bases de datos temporales,
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+#Archivos de pruebas,
+*.log
+*.test.js
+
+#Archivos temporales del sistema operativo,
+*.swp
+*.swo
